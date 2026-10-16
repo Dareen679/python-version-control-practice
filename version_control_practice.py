@@ -7,8 +7,8 @@ No outside packages are required.
 
 def show_project_info():
     """Display basic information about this version-control exercise."""
-    project_name = "My GitHub Practice Project"
-    version = "1.0"
+    project_name = "Python Version Control Practice"
+    version = "1.1"
     print(f"Project: {project_name}")
     print(f"Version: {version}")
     print("Git helps track changes in a software project.")
@@ -37,6 +37,9 @@ def main():
     #         why it is useful to save your code changes with Git.
     # TODO 3: Add another print() statement describing one difference
     #         between git commit and git push.
+    
+    print("Git is useful because it saves a history of my code changes and lets me go back to an earlier version.")
+    print("Git commit saves changes locally, while git push uploads those commits to GitHub.")
 
 
 if __name__ == "__main__":
