@@ -44,3 +44,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Tested successfully with Python 3.
